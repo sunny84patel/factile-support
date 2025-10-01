@@ -1,28 +1,29 @@
-# Web & FastAPI
-fastapi==0.109.0
-uvicorn[standard]==0.27.0
-python-dotenv==1.0.0
-pydantic==2.5.3
+# -------- Core Web Framework --------
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+gunicorn==23.0.0
+python-dotenv==1.0.1
+pydantic==2.9.2
 
-# OpenAI
-openai==1.10.0
+# -------- OpenAI API --------
+openai==1.45.0
 
-# Pinecone (latest stable)
+# -------- Pinecone Vector DB --------
 pinecone-client==6.0.0
 
-# LlamaIndex + integrations
-llama-index==0.10.13.post1
-llama-index-embeddings-openai==0.1.6
-llama-index-vector-stores-pinecone==0.7.1       # latest as of Sep 2025 :contentReference[oaicite:1]{index=1}
+# -------- LlamaIndex + Integrations --------
+llama-index==0.10.68
+llama-index-embeddings-openai==0.1.11
+llama-index-vector-stores-pinecone==0.7.1
 
-# PDF / OCR processing
-PyMuPDF==1.23.8
-Pillow==10.2.0
-pytesseract==0.3.10
+# -------- PDF / OCR --------
+PyMuPDF==1.24.10
+Pillow==11.0.0
+pytesseract==0.3.13
 
-# Utilities
-tqdm==4.66.1
-requests>=2.31.0    # not pinned too low, for compatibility
+# -------- Utilities --------
+tqdm==4.66.5
+requests==2.32.3
 
-# (Optional) for image caption embeddings
-sentence-transformers>=2.2.2
+# -------- Optional (embeddings, semantic search) --------
+sentence-transformers==3.1.1
