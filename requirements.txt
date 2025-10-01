@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+requests
+openai
+pinecone-client
+llama-index
+pymupdf           # fitz (PDF image extraction)
+pytesseract       # optional (OCR for images)
+Pillow
+sentence-transformers  # optional for image caption embeddings
+tqdm
