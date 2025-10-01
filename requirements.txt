@@ -8,7 +8,7 @@ pydantic==2.5.3
 openai==1.10.0
 
 # Pinecone
-pinecone-client==3.0.3
+pinecone-client
 
 # LlamaIndex
 llama-index==0.10.11
